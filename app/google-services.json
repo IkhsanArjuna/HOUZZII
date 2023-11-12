@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "558685052153",
+    "project_id": "fir-houzzii",
+    "storage_bucket": "fir-houzzii.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558685052153:android:5edb52903c04b4c9d29628",
+        "android_client_info": {
+          "package_name": "com.example.houzzii"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX_D5cK2pTLnwe6AGK87I0bG2dzv7QcIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
