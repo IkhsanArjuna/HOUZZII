@@ -9,9 +9,8 @@ import android.widget.Toast
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 
-class RecyclerViewAdapter constructor(private val getActivity: MainActivity, private val kamarList : List<DataKamar>) : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>() {
-
-
+class RecyclerViewAdapter constructor(private val getActivity: MainActivity, private val kamarList :
+    List<DataKamar>) : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.activity_recyclerview, parent, false)
@@ -32,6 +31,4 @@ class RecyclerViewAdapter constructor(private val getActivity: MainActivity, pri
         val ivKamar : ImageView = itemView.findViewById(R.id.ivKamar)
         val cardView : CardView = itemView.findViewById(R.id.cardView)
     }
-
-
 }
