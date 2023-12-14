@@ -93,6 +93,7 @@
                     android:textSize="16sp" />
 
             </RelativeLayout>
+            </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
     </LinearLayout>
     </ScrollView>
