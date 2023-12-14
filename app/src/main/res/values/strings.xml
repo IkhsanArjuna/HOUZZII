@@ -1,88 +1,23 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">HOUZZII</string>
-    <style name="groupStyleblue_800">
-        <item name="android:background">@drawable/rectangle_bg_blue_800</item>
-        <style name="txtInterregular23_1">
-            <item name="android:textSize">@dimen/_23pxh</item>
-            <item name="android:textColor">@color/white_A700</item>
-            <item name="android:fontFamily">@font/inter</item>
-            <item name="android:textFontWeight" tools:targetApi="p">400</item>
-        </style>
-        <style name="btnSolidRoundedOutline_1">
-            <item name="android:textSize">@dimen/_23pxh</item>
-            <item name="android:textColor">@color/white_A700</item>
-            <item name="android:fontFamily">@font/inter</item>
-            <item name="android:textFontWeight" tools:targetApi="p">400</item>
-            <item name="android:background">@drawable/rectangle_bg_blue_900_border_blue_900_radius_27_5</item>
-        </style>
-        <style name="groupStylewhite_A700_59cornerRadius">
-            <item name="android:background">@drawable/rectangle_bg_white_a700_59_border_black_900_radius_40</item>
-        </style>
-        <style name="txtInterregular16">
-            <item name="android:textSize">@dimen/_16pxh</item>
-            <item name="android:textColor">@color/black_900</item>
-            <item name="android:fontFamily">@font/inter</item>
-            <item name="android:textFontWeight" tools:targetApi="p">400</item>
-        </style>
-        <style name="txtInterregular23">
-            <item name="android:textSize">@dimen/_23pxh</item>
-            <item name="android:textColor">@color/black_900</item>
-            <item name="android:fontFamily">@font/inter</item>
-            <item name="android:textFontWeight" tools:targetApi="p">400</item>
-        </style>
-        <style name="groupStylewhite_1">
-            <item name="android:background">@drawable/rectangle_bg_white_a700</item>
-        </style>
-        <style name="txtInterbold35">
-            <item name="android:textSize">@dimen/_35pxh</item>
-            <item name="android:textColor">@color/white_A700</item>
-            <item name="android:fontFamily">@font/inter</item>
-            <item name="android:textFontWeight" tools:targetApi="p">700</item>
-        </style>
-        <style name="groupStylecornerRadius">
-            <item name="android:background">@drawable/rectangle_border_black_900_radius_27_5</item>
-        </style>
-        <style name="btnSolidRoundedOutline">
-            <item name="android:textSize">@dimen/_23pxh</item>
-            <item name="android:textColor">@color/white_A700</item>
-            <item name="android:fontFamily">@font/inter</item>
-            <item name="android:textFontWeight" tools:targetApi="p">400</item>
-            <item name="android:background">@drawable/rectangle_bg_blue_800_border_blue_a400_radius_27_5</item>
-        </style>
-        <style name="groupStylewhite_A700">
-            <item name="android:background">@drawable/rectangle_bg_white_a700_border_black_900</item>
-        </style>
-        <style name="groupStyleblue_800">
-            <item name="android:background">@drawable/rectangle_bg_blue_800</item>
-        </style>
-    </style>
-    <string name="lbl_houzzii_apps">HOUZZII APPS</string>
-    <string name="lbl_email">Email</string>
-    <string name="lbl_sign_out">Sign Out</string>
-    <string name="lbl_pesanan_anda">Pesanan Anda</string>
-    <string name="lbl_nama2">Nama :</string>
-    <string name="lbl_jenis_kamar">Jenis Kamar :</string>
-    <string name="msg_tidak_memiliki">Tidak Memiliki Akun ? Daftar Sekarang</string>
-    <string name="lbl_pesan_hotel">Pesan Hotel</string>
-    <string name="lbl_kembali">Kembali</string>
-    <string name="lbl_jumlah_tamu">Jumlah Tamu :</string>
-    <string name="msg_tanggal_checkin">Tanggal CheckIn :</string>
-    <string name="msg_tanggal_checkou">Tanggal CheckOut :</string>
-    <string name="lbl_login">Login</string>
-    <string name="lbl_pesan_kamar">Pesan Kamar</string>
-    <string name="lbl_fasilitas">Fasilitas :</string>
-    <string name="lbl_email2">Email :</string>
-    <string name="lbl_harga">Harga :</string>
-    <string name="lbl_nama_pemesan">Nama Pemesan :</string>
-    <string name="lbl_pesan_sekarang">Pesan Sekarang</string>
-    <string name="lbl_pemesanan_hotel">Pemesanan Hotel</string>
-    <string name="lbl_nama">Nama</string>
-    <string name="lbl_password">Password</string>
-    <string name="lbl_profile">Profile</string>
-    <string name="lbl_tipe_kamar">Tipe Kamar</string>
-    <string name="lbl_register">Register</string>
-    <string name="lbl_riwayat">Riwayat</string>
-    <string name="lbl_submit">Submit</string>
+<resources>
+    <string name = "app_name">houzzi</string>
 
+    <string-array name="spKamar">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
 
+    <string-array name="spJenisKamar">
+        <item>Standard Room</item>
+        <item>Superior Room</item>
+        <item>Deluxe Room</item>
+        <item>Suite Room</item>
+        <item>Junior Suite Room</item>
+        <item>Single Room</item>
+        <item>Twin Room</item>
+    </string-array>
 </resources>
