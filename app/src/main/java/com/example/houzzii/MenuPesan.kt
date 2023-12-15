@@ -20,7 +20,7 @@ class MenuPesan : AppCompatActivity(){
         var imgHistory = findViewById(R.id.imgHistory) as ImageView
 
         imgHistory.setOnClickListener {
-            Toast.makeText(this@MenuPesan,"Mohon maaf, fitur Riwayat sedang dalam pengembangan", Toast.LENGTH_LONG).show()
+            startActivity(Intent(this, Riwayat::class.java))
         }
 
         var imgPHotel = findViewById(R.id.imgHotel) as ImageView
@@ -32,7 +32,7 @@ class MenuPesan : AppCompatActivity(){
         var btnSignOut = findViewById(R.id.sign_out) as Button
 
         btnSignOut.setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
             Toast.makeText(this@MenuPesan,"Sign Out Berhasil", Toast.LENGTH_LONG).show()
         }
     }

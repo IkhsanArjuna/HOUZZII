@@ -2,6 +2,7 @@ package com.example.houzzii
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.TextView
 
 class Riwayat : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -22,8 +22,6 @@ class PemesananHotel : AppCompatActivity() {
 
         val spinners = findViewById(R.id.spKamar) as Spinner
         val spinner1 = findViewById(R.id.spJenisKamar) as Spinner
-        val spinner2 = findViewById(R.id.spFasilitas) as Spinner
-        val spinner3 = findViewById(R.id.spHarga) as Spinner
         val nama = findViewById(R.id.txtNama) as EditText
         val checkin = findViewById(R.id.idCheckIn) as EditText
         val checkout = findViewById(R.id.idCheckOut) as EditText
@@ -57,7 +55,7 @@ class PemesananHotel : AppCompatActivity() {
             intent.putExtra("checkout", checkout)
             intent.putExtra("jenis kamar", spinner1)
 
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, Riwayat::class.java))
             Toast.makeText(this, "Berhasil Booking Hotel", Toast.LENGTH_SHORT).show()
         }
     }
