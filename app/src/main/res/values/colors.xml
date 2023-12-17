@@ -14,5 +14,6 @@
     <color name="white_A700_59">#59ffffff</color>
     <color name="black_900_3f">#3f000000</color>
     <color name="white_A700">#ffffff</color>
+    <color name="white_login">#FFFBFB</color>
     <color name="bluegray_300_59">#599cabc2</color>
 </resources>
