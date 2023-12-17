@@ -21,7 +21,7 @@ class PemesananHotel : AppCompatActivity() {
         actionBar.setDisplayHomeAsUpEnabled(true)
 
         val spinners = findViewById(R.id.spKamar) as Spinner
-        val spinner1 = findViewById(R.id.spJenisKamar) as Spinner
+        val spinner1 = findViewById(R.id.tvJenisKamar) as Spinner
         val nama = findViewById(R.id.txtNama) as EditText
         val checkin = findViewById(R.id.idCheckIn) as EditText
         val checkout = findViewById(R.id.idCheckOut) as EditText
