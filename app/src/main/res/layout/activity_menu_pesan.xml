@@ -112,8 +112,7 @@
                     android:layout_height="100dp"
                     android:layout_centerInParent="true"
                     android:layout_gravity="center"
-                    android:paddingBottom="10dp"
-                    android:src="" />
+                    android:paddingBottom="10dp" />
 
                 <TextView
                     android:layout_width="match_parent"
