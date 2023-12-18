@@ -8,6 +8,7 @@ import android.widget.EditText
 import android.widget.Spinner
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.button.MaterialButton
 
 class PemesananHotel : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?){
@@ -40,7 +41,7 @@ class PemesananHotel : AppCompatActivity() {
             spinner1.adapter = adapter
         }
 
-        val btnIntent = findViewById(R.id.PesanHotel) as Button
+        val btnIntent = findViewById<Button>(R.id.PesanHotel)
         btnIntent.setOnClickListener{
             val nama = nama.text.toString()
             val spinners = spinners.selectedItem.toString()
