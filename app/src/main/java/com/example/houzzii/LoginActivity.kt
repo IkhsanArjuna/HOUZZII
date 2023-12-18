@@ -12,10 +12,16 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         var btnIntentDua = findViewById(R.id.masuk) as Button
+        var btnIntentTiga = findViewById(R.id.ke_daftar) as Button
 
         btnIntentDua.setOnClickListener {
             startActivity(Intent(this, MenuPesan::class.java))
             Toast.makeText(this, "Happy Holiday", Toast.LENGTH_LONG).show()
+
+        btnIntentTiga.setOnClickListener {
+            startActivity(Intent(this, RegisterActivity::class.java))
+        }
+
         }
     }
 }
