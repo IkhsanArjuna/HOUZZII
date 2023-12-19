@@ -54,6 +54,7 @@
             android:layout_height="57dp"
             android:background="@drawable/button_shape"
             android:hint="Password"
+            android:inputType="textPassword"
             android:paddingLeft="20dp"
             android:layout_margin="30dp"
             android:backgroundTint="@color/white_login"
@@ -83,12 +84,10 @@
             android:textSize="12sp"/>
 
         <Button
-            android:id="@+id/ke_daftar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Register"
             android:layout_marginTop="680dp"
-            android:textSize="12sp"
-            android:textColor="@color/blue_800"/>
+            android:id="@+id/register_button"/>
     </LinearLayout>
 </RelativeLayout>

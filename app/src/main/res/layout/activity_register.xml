@@ -86,12 +86,12 @@
             android:layout_marginTop="650dp"
             android:textSize="12sp"/>
 
-        <TextView
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Login"
             android:layout_marginTop="650dp"
             android:textSize="12sp"
-            android:textColor="@color/blue_800"/>
+            android:id="@+id/login_kembali"/>
     </LinearLayout>
 </RelativeLayout>
