@@ -70,24 +70,27 @@
         android:background="@drawable/button_shape"
         android:width="300dp"
         android:textSize="18sp"
+        app:backgroundTint="#0158C8"
         android:id="@+id/submit_text"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="dont have an account?"
             android:layout_marginTop="680dp"
-            android:textSize="12sp"/>
+            android:text="dont have an account?"
+            android:textSize="12sp" />
 
         <Button
+            android:id="@+id/register_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Register"
             android:layout_marginTop="680dp"
-            android:id="@+id/register_button"/>
+            app:backgroundTint="#0158C8"
+            android:text="Register" />
     </LinearLayout>
 </RelativeLayout>

@@ -5,7 +5,9 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-
+//Terdapat empat objek yang diinisialisasi dan dihubungkan dengan elemen-elemen UI (User Interface) pada layout menggunakan findViewById.
+// Objek-objek ini adalah imgProfil, imgHistory, imgPHotel, dan btnSignOut,
+//   masing-masing adalah ImageView dan Button yang merepresentasikan elemen gambar dan tombol di layar.
 class MenuPesan : AppCompatActivity(){
     override fun onCreate (savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)

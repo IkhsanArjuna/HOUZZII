@@ -14,6 +14,10 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
 import kotlinx.coroutines.withContext
 
+//Mendefinisikan kelas Riwayat yang merupakan turunan dari AppCompatActivity.
+// Ini adalah kelas yang akan menangani tampilan untuk riwayat.
+
+
 class Riwayat : AppCompatActivity() {
     private lateinit var revylerData: RecyclerView
     private lateinit var firestore: FirebaseFirestore
@@ -31,10 +35,6 @@ class Riwayat : AppCompatActivity() {
             revylerData.layoutManager = LinearLayoutManager(this)
             revylerData.adapter = AdapterRiwayat(newValue)
         }
-
-
-
-
 
     }
     suspend fun getDataFromFirestore(){

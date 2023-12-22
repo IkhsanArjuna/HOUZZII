@@ -10,3 +10,6 @@ class RiwayatViewModel : ViewModel() {
     val listReview: LiveData<MutableList<RiwayatModel>>
         get() = _listRiwayat
 }
+// menyimpan data riwayat jika ada data baru maka akan disimpan di
+//untuk myimpan data yang terbaru
+

@@ -29,7 +29,8 @@
                 android:text="Pesan Kamar"
                 android:textColor="@color/white"
                 android:textSize="24dp"
-                android:textStyle="italic" />
+                android:textStyle="italic"
+                />
 
         </RelativeLayout>
 
@@ -68,7 +69,8 @@
                     android:id="@+id/imgProfil"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_centerInParent="true" />
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/prof"/>
 
                 <TextView
                     android:id="@+id/Profil"
@@ -112,7 +114,8 @@
                     android:layout_height="100dp"
                     android:layout_centerInParent="true"
                     android:layout_gravity="center"
-                    android:paddingBottom="10dp" />
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/riwa"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -170,7 +173,8 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_centerInParent="true"
-                    android:paddingBottom="15dp" />
+                    android:paddingBottom="15dp"
+                    android:src="@drawable/kasur" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -192,9 +196,9 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/sign_out"
-        android:layout_width="389dp"
+        android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginTop="372dp"
+        android:layout_marginTop="300dp"
         android:text="Sign Out"
         android:textSize="16sp"
         android:theme="@style/Theme.MaterialComponents.Light"

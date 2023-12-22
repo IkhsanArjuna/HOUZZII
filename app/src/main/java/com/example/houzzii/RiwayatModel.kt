@@ -7,3 +7,6 @@ data class RiwayatModel(
     val checkOut : String ="",
     val jenisKamar: String = ""
 )
+
+//kelas untuk menyimpan.... dalam bentuk string
+//parameter dari yang ada di adapter
