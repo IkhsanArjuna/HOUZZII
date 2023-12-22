@@ -29,7 +29,7 @@ class LoginActivity : AppCompatActivity() {
             startActivity(toRegister)
         }
 
-        var btnIntentDua = findViewById(R.id.masuk) as Button
+        var btnIntentDua = findViewById(R.id.submit_text) as Button
         btnIntentDua.setOnClickListener {
             val email = etEmail.text.toString()
             val password = etPassword.text.toString()
